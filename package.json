@@ -1,0 +1,40 @@
+{
+  "name": "groupama-nrt",
+  "version": "1.0.0",
+  "description": "Automatic test project",
+  "scripts": {
+    "test:all": "set BROWSER=chromium&&set PWDEBUG=console&&cucumber-js --profile mig --format json:output/cucumberJSON/report.json e2e-test/features/**/*.feature",
+    "test:alltests": "cross-env-shell \"cucumber-js --profile $TARGET_ENV --parallel $PARALLEL --retry 1 --format json:output/cucumberJSON/report.json e2e-test/features/**/*.feature\"",
+    "test:folder": "cross-env-shell \"cucumber-js --profile $TARGET_ENV --parallel $PARALLEL --retry 1 --format json:output/cucumberJSON/report.json e2e-test/features/$FOLDER_FEATURES/*.feature\"",
+    "test:feature": "cross-env-shell \"cucumber-js --profile $TARGET_ENV --parallel $PARALLEL --retry 1 --format json:output/cucumberJSON/report.json e2e-test/features/$FOLDER_FEATURES/$FEATURE_NAME.feature\"",
+    "test:tddfolder": "cross-env-shell \"cucumber-js --profile $TARGET_ENV --parallel $PARALLEL --retry 1 --format json:output/cucumberJSON/report.json e2e-test/tdd/test/features/$FOLDER_FEATURES/*.feature\"",
+    "test:tddfeature": "cross-env-shell \"cucumber-js --profile $TARGET_ENV --parallel $PARALLEL --retry 1 --format json:output/cucumberJSON/report.json e2e-test/tdd/test/features/$FOLDER_FEATURES/$FEATURE_NAME.feature\"",
+    "report": "node report.js",
+    "getInfo": "cross-env-shell \"cucumber-js --profile $TARGET_ENV node_modules/@rgi/playwright-getinfo-lib/dist/info.feature\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.ad.rgigroup.com/groupama/groupama-automatic-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rgi/playwright-common-base-lib": "0.1.5",
+    "@rgi/playwright-cucumber-runner-lib": "0.5.0",
+    "@rgi/playwright-getinfo-lib": "0.1.2",
+    "@rgi/playwright-globalshare-lib": "^0.1.6",
+    "cucumber-html-reporter": "7.1.1",
+    "multiple-cucumber-html-reporter": "3.6.2"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^10.8.0",
+    "@cucumber/pretty-formatter": "1.0.1",
+    "@rgi/playwright-core": "^0.0.4",
+    "@rgi/playwright-performance-lib": "^0.2.2",
+    "codice-fiscale-js": "^2.3.22",
+    "cross-env": "^7.0.3",
+    "date-and-time": "3.3.0",
+    "jsonpath": "^1.1.1",
+    "redis": "^4.6.14"
+  }
+}

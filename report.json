@@ -1,0 +1,861 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "groupama---consultazione-fondi;99.-ricerca-e-consultazione-fondo",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "99. Ricerca e consultazione fondo",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 784208499
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 375500
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 355600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I log in groupama first page with user \"GC08073\"",
+            "match": {
+              "location": "e2e-test\\step-definitions\\Untitled-1.ts:6"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 30046999,
+              "error_message": "page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  \u001b[2m- navigating to \"URL_DELLA_TUA_PAGINA\", waiting until \"load\"\u001b[22m\n\n    at C:\\Users\\stefano.giacomini\\OneDrive - RGI SpA\\Desktop\\Progetto\\groupama-automatic-test\\e2e-test\\models\\Untitled-3.ts:41:16\n    at fulfilled (C:\\Users\\stefano.giacomini\\OneDrive - RGI SpA\\Desktop\\Progetto\\groupama-automatic-test\\e2e-test\\models\\Untitled-3.ts:5:58)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I select the groupama sales network \"GROUPAMA ASSICURAZIONI\"",
+            "match": {
+              "location": "e2e-test\\step-definitions\\Untitled-1.ts:17"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 267499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 244399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 745460600
+            },
+            "embeddings": [
+              {
+                "data": "U3RhdHVzOiBGQUlMRUQ=",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "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",
+                "mime_type": "image/png"
+              },
+              {
+                "data": "RXhlY3V0aW9uIFRpbWUgW1VUQ106IDIwMjQtMDctMjJUMDY6NTQ6NDQuMzMxWg==",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "MjAyNC0wNy0yMlQwNjo1NDo0NC4zMzFa",
+                "mime_type": "test-time"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          {
+            "name": "@mig3",
+            "line": 2
+          },
+          {
+            "name": "@migA",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "groupama---consultazione-fondi",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Groupama - Consultazione Fondi",
+    "tags": [],
+    "uri": "e2e-test\\features\\Consultazioni\\Consultazioni.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "groupama---mig3;01.-emissione-pur-libera",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "01. Emissione PUR Libera",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 291957300
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 459700
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 216700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Open page",
+            "match": {
+              "location": "e2e-test\\step-definitions\\login.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 319360499
+            },
+            "embeddings": [
+              {
+                "data": "UGFnZSBVUkw6IGh0dHBzOi8vaW50cmFuZXQtdGVzdC5ncm91cGFtYS5pdC9Qb3J0YWxlR0EvaW5kZXgueGh0bWw=",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Login in Portale delle applicazioni with username \"GC08076\" and password \"Montecarlo.7\"",
+            "match": {
+              "location": "e2e-test\\step-definitions\\login.steps.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 696936898
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "On Portale delle applicazioni choose \"Sviluppo\" in side menu",
+            "match": {
+              "location": "e2e-test\\step-definitions\\login.steps.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 924357599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "On Portale delle applicazioni choose \"Nexus GCP\" environment",
+            "match": {
+              "location": "e2e-test\\step-definitions\\login.steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3088493598
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "On Portale Nexus click on \"Collegamenti\" in toolBar",
+            "match": {
+              "location": "e2e-test\\step-definitions\\login.steps.ts:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 423930797
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "On Portale Nexus click on \"Life PRO\" in submenu toolBar",
+            "match": {
+              "location": "e2e-test\\step-definitions\\login.steps.ts:42"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 2981380397,
+              "error_message": "page.waitForResponse: Target page, context or browser has been closed\n    at PortaleNexusPage.<anonymous> (C:\\Users\\stefano.giacomini\\OneDrive - RGI SpA\\Desktop\\Progetto\\groupama-automatic-test\\e2e-test\\models\\portaleNexus.page.ts:21:32)\n    at C:\\Users\\stefano.giacomini\\OneDrive - RGI SpA\\Desktop\\Progetto\\groupama-automatic-test\\e2e-test\\models\\portaleNexus.page.ts:8:71\n    at __awaiter (C:\\Users\\stefano.giacomini\\OneDrive - RGI SpA\\Desktop\\Progetto\\groupama-automatic-test\\e2e-test\\models\\portaleNexus.page.ts:4:12)\n    at PortaleNexusPage.waitResponseByMethod (C:\\Users\\stefano.giacomini\\OneDrive - RGI SpA\\Desktop\\Progetto\\groupama-automatic-test\\e2e-test\\models\\portaleNexus.page.ts:24:16)\n    at World.<anonymous> (C:\\Users\\stefano.giacomini\\OneDrive - RGI SpA\\Desktop\\Progetto\\groupama-automatic-test\\e2e-test\\step-definitions\\login.steps.ts:46:26)\n    at fulfilled (C:\\Users\\stefano.giacomini\\OneDrive - RGI SpA\\Desktop\\Progetto\\groupama-automatic-test\\e2e-test\\step-definitions\\login.steps.ts:5:58)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "On Portal Pass page select node as \"ROSETO DEGLI ABRUZZI\" and continue",
+            "match": {
+              "location": "e2e-test\\step-definitions\\login.steps.ts:52"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "In NewLifeProposal card click on choose party",
+            "match": {
+              "location": "e2e-test\\step-definitions\\newLifeProposal.steps.ts:9"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "Search party with surname \"SPINOSI\" and name \"SANDRA\"",
+            "match": {
+              "location": "e2e-test\\step-definitions\\newLifeProposal.steps.ts:18"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "In NewLifeProposal card select producer as \"RO. ASS. SNC DI TESTA E COLLELUORI MICHELE\"",
+            "match": {
+              "location": "e2e-test\\step-definitions\\newLifeProposal.steps.ts:32"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "In NewLifeProposal card click on Prosegui",
+            "match": {
+              "location": "e2e-test\\step-definitions\\newLifeProposal.steps.ts:37"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "In versioni pop up click on NUOVA VERSIONE",
+            "match": {
+              "location": "e2e-test\\step-definitions\\newLifeProposal.steps.ts:45"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "In Check-up Assicurativo survey I click on VALUTA",
+            "match": {
+              "location": "e2e-test\\step-definitions\\checkUpAssicurativo.steps.ts:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 37,
+            "name": "In Check-up Assicurativo survey I select the product \"Prodotto Groupama Progetto Attivo\"",
+            "match": {
+              "location": "e2e-test\\step-definitions\\checkUpAssicurativo.steps.ts:39"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "In Check-up Assicurativo survey click on CONTINUA",
+            "match": {
+              "location": "e2e-test\\step-definitions\\checkUpAssicurativo.steps.ts:44"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "In subject page click on AVANTI",
+            "match": {
+              "location": "e2e-test\\step-definitions\\subject.steps.ts:6"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Description",
+                      "Value",
+                      "DataQa"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Polizza da reinvestire?",
+                      "No",
+                      "_VREINradio-label-"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Tipologia Premio",
+                      "Premio Unico Ricorrente",
+                      "factor1TIPOP"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Tipo Gestione Investimento",
+                      "Libera",
+                      "factor1TGEIN"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Percentuale Investimento GS",
+                      "30",
+                      "factor2RIPPR"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Premio Ricorrente (Rata)",
+                      "150000",
+                      "factor2PRRAT"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Durata pagamento premi",
+                      "10",
+                      "factor2DUPRE"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Diritti in emissione",
+                      "100",
+                      "factor2DIREM"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Provvigioni precontate",
+                      "No",
+                      "factor2PRPRE"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Trasformazione",
+                      "No",
+                      "factor1FLTRA"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Frazionamento",
+                      "Annuale",
+                      "paymentFrequency"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Tipo pagamento rate successive",
+                      "Pagamento in agenzia",
+                      "paymentInfoNext"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 40,
+            "name": "In Policy Data page fill the following factors",
+            "match": {
+              "location": "e2e-test\\step-definitions\\policyData.steps.ts:6"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 53,
+            "name": "In Policy Data page click on AVANTI",
+            "match": {
+              "location": "e2e-test\\step-definitions\\policyData.steps.ts:36"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 54,
+            "name": "In Asset Data page click on AVANTI",
+            "match": {
+              "location": "e2e-test\\step-definitions\\assetData.steps.ts:6"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 55,
+            "name": "In Quotation page select \"Gli eredi legittimi dell'assicurato\" on \"benef_Morte\"",
+            "match": {
+              "location": "e2e-test\\step-definitions\\quotation.steps.ts:6"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Question",
+                      "Answer",
+                      "DataQa"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Contraente",
+                      "No",
+                      "QVA_5.QAV26"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Scopo prevalente del rapporto",
+                      "1) Esigenze familiari/ personali",
+                      "QVBE_1.QVBE07"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Specificare",
+                      "1) Protezione/ previdenza",
+                      "QVBE_1.QVBE08"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Mezzo di pagamento",
+                      "1) Bonifico",
+                      "QVBE_1.QVBE09"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Paese di provenienza dei fondi",
+                      "Italia (Repubblica Italiana), IT",
+                      "QVBE_1.QVBE10"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Origine dei fondi",
+                      "3) Patrimonio personale",
+                      "QVBE_1.QVBE11"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Origine del patrimonio",
+                      "1) Patrimonio personale di provenienza familiare",
+                      "QVBE_1.QVBE13"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Cliente che opera con mercato estero",
+                      "No",
+                      "QVCE_1.QVCE01"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Ulteriori informazioni sul Contraente persona fisica",
+                      "1) Dipendente",
+                      "QVCE_1.QVCE07"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Fascia di Reddito annuo o Fatturato annuo",
+                      "2) Da Euro 20.001 a Euro 50.000",
+                      "QVCE_2.QVCE15"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Modalità di svolgimento dell'operazione",
+                      "1)In presenza del cliente/legale rappresentante",
+                      "QVII_1.QVII01"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Comportamento tenuto dal cliente",
+                      "1)Normale",
+                      "QVII_1.QVII03"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Compatibilità del rapporto/operazione con la capacità",
+                      "1)Polizza/operazione compatibile con la capacità economica e/o patrimoniale del contraente",
+                      "QVII_1.QVII04"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Assegnazione del profilo di rischio di riciclaggio",
+                      "1)Basso",
+                      "QVII_1.QVII05"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Le informazioni ricevute dal cliente",
+                      "Si",
+                      "QVII_1.QVII07"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "In base alle informazioni ricevute",
+                      "No",
+                      "QVII_1.QVII08"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 56,
+            "name": "I fill in the \"idADEGUATA VERIFICA\" questionnaire with the following answers",
+            "match": {
+              "location": "e2e-test\\step-definitions\\quotation.steps.ts:11"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 74,
+            "name": "Click on CONFIRM button",
+            "match": {
+              "location": "e2e-test\\step-definitions\\quotation.steps.ts:43"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Question",
+                      "Answer",
+                      "DataQa"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "1 Paese di residenza fiscale (A)",
+                      "Italia (Repubblica Italiana), IT",
+                      "QFC_9._DAE19"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Nif Paese non previsto ( C )",
+                      "Si",
+                      "QFC_9.QFPF02"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 75,
+            "name": "I fill in the \"idFATCA/CRS\" questionnaire with the following answers",
+            "match": {
+              "location": "e2e-test\\step-definitions\\quotation.steps.ts:11"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 79,
+            "name": "Click on CONFIRM button",
+            "match": {
+              "location": "e2e-test\\step-definitions\\quotation.steps.ts:43"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 80,
+            "name": "In Quotation page click on AVANTI",
+            "match": {
+              "location": "e2e-test\\step-definitions\\quotation.steps.ts:48"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 81,
+            "name": "In Investments page select \"Gestione Libera (FI)\" panel",
+            "match": {
+              "location": "e2e-test\\step-definitions\\investimenti.steps.ts:6"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 82,
+            "name": "In Investments page check \"ValorePiù Bilanciato Classe C_519\" and set \"100\" as percentage",
+            "match": {
+              "location": "e2e-test\\step-definitions\\investimenti.steps.ts:11"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 83,
+            "name": "In Investments page click on AVANTI",
+            "match": {
+              "location": "e2e-test\\step-definitions\\investimenti.steps.ts:17"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 84,
+            "name": "In Investments page click on CONFIRM",
+            "match": {
+              "location": "e2e-test\\step-definitions\\investimenti.steps.ts:22"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 85,
+            "name": "In Summary page click on EMISSIONE POLIZZA",
+            "match": {
+              "location": "e2e-test\\step-definitions\\summary.steps.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 86,
+            "name": "Check and store policy number",
+            "match": {
+              "location": "e2e-test\\step-definitions\\issue.steps.ts:6"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 106100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 88400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 2442899,
+              "error_message": "page.screenshot: Target page, context or browser has been closed\n    at World.<anonymous> (C:\\Users\\stefano.giacomini\\OneDrive - RGI SpA\\Desktop\\Progetto\\groupama-automatic-test\\node_modules\\@rgi\\playwright-cucumber-runner-lib\\dist\\support\\common-hooks.js:202:85)"
+            },
+            "embeddings": [
+              {
+                "data": "U3RhdHVzOiBGQUlMRUQ=",
+                "mime_type": "text/plain"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          {
+            "name": "@mig3",
+            "line": 2
+          },
+          {
+            "name": "@migA",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "groupama---mig3",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Groupama - MIG3",
+    "tags": [],
+    "uri": "e2e-test\\features\\Emissioni\\Emissione.feature"
+  }
+]

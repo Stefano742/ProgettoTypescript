@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "target": "es6",
+    "module": "commonjs",
+    "declaration": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "dist",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "preserveSymlinks": true,
+    "baseUrl": ".",
+    "paths": {
+      "@rgi/playwright-core": [
+        "node_modules/@rgi/playwright-core"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "**/__tests__/*"
+  ]
+}
